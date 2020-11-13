@@ -1,0 +1,166 @@
+body{
+	background: #112a49;
+}
+
+main{
+	background: #fff;
+	width: 90%;
+	min-height: 710px;
+	margin: 30px auto;
+	border-radius: 20px;
+}
+
+header{
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.iconos{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+
+.fa-linkedin{
+	transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.fa-linkedin:hover{
+	cursor: pointer;
+	transform: translateY(-3px);
+}
+
+.fa-linkedin:active{
+	transform: translateY(3px);
+}
+
+.fa-instagram{
+	transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.fa-instagram:hover{
+	cursor: pointer;
+	transform: translateY(-3px);
+}
+
+.fa-instagram:active{
+	transform: translateY(3px);
+}
+
+.fa-paper-plane{
+	transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.fa-paper-plane:hover{
+	cursor: pointer;
+	transform: translateY(-3px);
+}
+
+.fa-paper-plane:active{
+	transform: translateY(3px);
+}
+
+.fa-twitter{
+	transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.fa-twitter:hover{
+	cursor: pointer;
+	transform: translateY(-3px);
+}
+
+.fa-twitter:active{
+	transform: translateY(3px);
+}
+
+.iconos li{
+	margin-right: 30px;
+}
+
+.iconos a{
+	text-decoration: none;
+}
+
+i{
+	color: #112a49;
+	font-size: 45px;
+}
+
+h1{
+	font-weight: 900px;
+	font-size: 52px;
+	line-height: 70px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+h1:after{
+	content: '';
+	height: 25px;
+	position: absolute;
+	bottom: 0px;
+	left: 5px;
+	right: 0px;
+	background: #3d5afe;
+	opacity: 0.1;
+	width: 350px;
+}
+
+.btn-primary{
+	background: #112a49;
+	transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s; 
+}
+
+.btn-primary:hover{
+	cursor: pointer;
+	transform: translateY(-3px);
+}
+
+.btn-primary:active{
+	transform: translateY(3px);
+}
+
+img{
+	height: 400px;
+	width: 370px;
+}
+
+img{
+	box-shadow: 32px 32px 0px 0px rgba(17,42,73,0.9)
+}
+
+#about_me{
+	margin-top: 5px;
+}
+
+#foto{
+	margin-top: 5px;
+}
+
+#portfolio{
+	display: inline-block;
+	text-align: center;
+	margin-top: 80px;
+	transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+h3{
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.fa-chevron-down{
+	color: #112a49;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+#portfolio:hover{
+	cursor: pointer;
+	transform: translateY(-5px);
+}
+
+#portfolio:active{
+	transform: translateY(5px);
+}
