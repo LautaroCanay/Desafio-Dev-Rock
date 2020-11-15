@@ -130,13 +130,11 @@ img{
 }
 
 #about_me{
-	padding-bottom: 25px;
 	padding-left: 50px;
 
 }
 
 #foto{
-	padding-bottom: 25px;
 	padding-left: 50px;
 	object-fit: cover;
 }
