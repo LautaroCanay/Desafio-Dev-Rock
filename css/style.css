@@ -120,8 +120,8 @@ h1:after{
 }
 
 img{
-	height: 400px;
-	width: 370px;
+	height: 300px;
+	width: 270px;
 	object-fit: cover;
 }
 
@@ -132,22 +132,23 @@ img{
 #about_me{
 	padding-top: 25px;
 	padding-bottom: 25px;
-	padding-left: 100px;
+	padding-left: 50px;
 	padding-bottom: 100px;
 
 }
 
 #foto{
-	margin-top: : 5px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	padding-left: 50px;
-	padding-right: 100px;
+	padding-bottom: 100px;
 	object-fit: cover;
 }
 
 #portfolio{
 	display: inline-block;
 	text-align: center;
-	padding-top: 10px;
+	padding: 15px;
 	transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
 }
 
