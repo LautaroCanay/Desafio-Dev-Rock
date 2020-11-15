@@ -87,7 +87,7 @@ i{
 
 h1{
 	font-weight: 900px;
-	font-size: 52px;
+	font-size: 60px;
 	line-height: 70px;
 	margin-bottom: 40px;
 	position: relative;
@@ -137,12 +137,16 @@ img{
 #foto{
 	padding-left: 50px;
 	object-fit: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #portfolio{
 	display: inline-block;
 	text-align: center;
-	padding: 15px;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
 }
 
