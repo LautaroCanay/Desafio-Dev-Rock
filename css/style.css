@@ -4,7 +4,7 @@ body{
 
 main{
 	background: #fff;
-	margin: 30px auto;
+	margin: 30px;
 	border-radius: 20px;
 }
 
@@ -138,15 +138,14 @@ img{
 	padding-left: 50px;
 	object-fit: cover;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 #portfolio{
 	display: inline-block;
 	text-align: center;
-	padding: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px;
+	margin-top: 30px;
 	transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
 }
 
