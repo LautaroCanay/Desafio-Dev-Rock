@@ -4,15 +4,13 @@ body{
 
 main{
 	background: #fff;
-	width: 90%;
-	min-height: 710px;
 	margin: 30px auto;
 	border-radius: 20px;
 }
 
 header{
-	padding-top: 50px;
-	padding-bottom: 70px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .iconos{
@@ -132,17 +130,21 @@ img{
 }
 
 #about_me{
-	margin-top: 5px;
+	margin-top: : 5px;
+	padding-left: 60px;
+	padding-bottom: 15px;
+
 }
 
 #foto{
-	margin-top: 5px;
+	margin-top: : 5px;
+	object-fit: cover;
 }
 
 #portfolio{
 	display: inline-block;
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 60px;
 	transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
 }
 
@@ -154,7 +156,7 @@ h3{
 .fa-chevron-down{
 	color: #112a49;
 	font-size: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 #portfolio:hover{
