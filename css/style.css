@@ -131,7 +131,7 @@ img{
 }
 
 #about_me{
-	
+	margin: 10px auto;
 
 }
 
@@ -142,7 +142,7 @@ img{
 }
 
 #foto{
-	
+	margin: 10px auto;
 	object-fit: cover;
 	padding-top: 20px;
 	padding-bottom: 30px;
