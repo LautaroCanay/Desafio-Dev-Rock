@@ -87,9 +87,10 @@ i{
 
 h1{
 	font-weight: 900px;
-	font-size: 60px;
-	line-height: 70px;
-	margin-bottom: 40px;
+	font-size: 58px;
+	line-height: 62px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 	position: relative;
 }
 
@@ -120,8 +121,8 @@ h1:after{
 }
 
 img{
-	height: 300px;
-	width: 270px;
+	height: 400px;
+	width: 370px;
 	object-fit: cover;
 }
 
@@ -130,12 +131,19 @@ img{
 }
 
 #about_me{
-	padding-left: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
 
+#info{
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
+
 #foto{
-	padding-left: 50px;
+	padding-left: 20px;
 	object-fit: cover;
 	padding-top: 20px;
 	padding-bottom: 30px;
