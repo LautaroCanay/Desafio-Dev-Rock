@@ -6,6 +6,7 @@ main{
 	background: #fff;
 	margin: 30px auto;
 	border-radius: 20px;
+	width: 90%;
 }
 
 header{
@@ -86,11 +87,11 @@ i{
 }
 
 h1{
-	font-weight: 900px;
-	font-size: 56px;
-	line-height: 70px;
+	font-weight: 100px;
+	font-size: 55px;
+	line-height: 60px;
 	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-top: 18px;
 	position: relative;
 }
 
@@ -103,7 +104,7 @@ h1:after{
 	right: 0px;
 	background: #3d5afe;
 	opacity: 0.1;
-	width: 90%;
+	width: 70%;
 }
 
 .btn-primary{
@@ -121,8 +122,8 @@ h1:after{
 }
 
 img{
-	height: 400px;
-	width: 370px;
+	height: 320px;
+	width: 300px;
 	object-fit: cover;
 }
 
@@ -131,21 +132,24 @@ img{
 }
 
 #about_me{
-	margin: 20px auto;
-
+	width: 90%;
 }
 
 #info{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	margin-top: 5px;
+	width: 100%;
+	padding left: 5px;
+	padding-right: 5px;
 }
 
 #foto{
-	margin: 20px auto;
+	margin-top: 10px;
 	object-fit: cover;
 	padding-top: 20px;
 	padding-bottom: 30px;
+	width: 90%;
 }
 
 #portfolio{
