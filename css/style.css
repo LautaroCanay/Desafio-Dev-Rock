@@ -104,7 +104,7 @@ h1:after{
 	right: 0px;
 	background: #3d5afe;
 	opacity: 0.1;
-	width: 70%;
+	width: 85%;
 }
 
 .btn-primary{
@@ -133,6 +133,7 @@ img{
 
 #about_me{
 	width: 90%;
+	justify-content: space-around;
 }
 
 #info{
@@ -150,6 +151,7 @@ img{
 	padding-top: 20px;
 	padding-bottom: 30px;
 	width: 90%;
+	justify-content: space-around;
 }
 
 #portfolio{
